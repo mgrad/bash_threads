@@ -1,0 +1,4 @@
+echo t1  && sleep 10 2>&1 | tee t1.txt 
+echo t2  && sleep 10 | tee t2.txt
+echo t3  && sleep 10 | tee t3.txt
+echo t4  && sleep 10 | tee t4.txt
